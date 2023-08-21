@@ -11,25 +11,30 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Light red: hsl(0, 100%, 67%)
-- Orangey yellow: hsl(39, 100%, 56%)
-- Green teal: hsl(166, 100%, 37%)
-- Cobalt blue: hsl(234, 85%, 45%)
+- Light blue: rgba(53, 144, 240, 1)
+- Green: rgba(11, 168, 28, 1)
+- Orange: rgba(246, 115, 53, 1)
 
 ## Gradients
-
-- Light slate blue (background): hsl(252, 100%, 67%)
-- Light royal blue (background): hsl(241, 81%, 54%)
-
-- Violet blue (circle): hsla(256, 72%, 46%, 1)
-- Persian blue (circle): hsla(241, 72%, 46%, 0)
+<!-- Example -->
+<!-- - Light slate blue (background): hsl(252, 100%, 67%) -->
+<!-- - Violet blue (circle): hsla(256, 72%, 46%, 1) -->
 
 ### Neutral
 
-- White: hsl(0, 0%, 100%)
-- Pale blue: hsl(221, 100%, 96%)
-- Light lavender: hsl(241, 100%, 89%)
-- Dark gray blue: hsl(224, 30%, 27%)
+<!-- Example -->
+<!-- - White: hsl(0, 0%, 100%) -->
+<!-- - Pale blue: hsl(221, 100%, 96%) -->
+
+<!-- Dark mode (lighter 1-3) -->
+- 1. Almost black: rgba(18, 18, 18, 1)
+- 2. Dark gray: rgba(29, 33, 37, 1)
+- 3. Lighter gray: rgba(51, 51, 51, 1)
+
+<!-- Light mode -->
+- Light grey (background): rgba(253, 253, 253, 1)
+- Lighter grey (background): rgba (249, 248, 245, 1)
+- grey: rgba(242, 239, 232, 1)
 
 ### Notes
 
@@ -51,5 +56,3 @@ Use transparency to get the colour variations necessary to match the design. Hin
 For the social icons, you can use a font icon library. Some suggestions can be found below:
 
 - [Font Awesome](https://fontawesome.com/)
-- [IcoMoon](https://icomoon.io/)
-- [Ionicons](https://ionicons.com/)
