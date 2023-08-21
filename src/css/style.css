@@ -31,11 +31,33 @@ body {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-around;
-    padding: 1em;
+    /* padding: 1em; */
+    padding-right: 1em;
 }
 
 .separation {
     border: 2px solid;
-    width: 25%;
-    transform: rotate(90deg);
+    width: 0%;
+    padding: 4em 0;
+    margin: auto;
+}
+
+.player {
+    font-size: 1.2rem;
+}
+
+.player-person {
+    width: fit-content;
+}
+
+.player h2 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.player h2 svg {
+    width: 30%;
 }
