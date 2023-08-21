@@ -33,3 +33,9 @@ body {
     justify-content: space-around;
     padding: 1em;
 }
+
+.separation {
+    border: 2px solid;
+    width: 25%;
+    transform: rotate(90deg);
+}
