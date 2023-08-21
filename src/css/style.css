@@ -21,3 +21,15 @@ body {
     width: 90%;
     margin: auto;
 }
+
+/* Individual sections */
+
+/* Scoreboard */
+#score-board {
+    border: 1px solid;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
