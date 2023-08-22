@@ -136,3 +136,36 @@ body {
     width: 50%;
     fill: green;
 }
+
+/* Game control */
+
+#game-control {
+    margin: 1em auto;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#game-control .control {
+    /* border: 1px solid blue; */
+    border: none;
+}
+
+#game-control .control button{
+    height: 100%;
+    width: 15rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em 1em;
+}
+
+#game-control .control button svg {
+    width: 2rem;
+}
+
+#game-control .control button span {
+    display: inline-block;
+    margin: auto;
+}
