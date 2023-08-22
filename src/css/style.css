@@ -43,11 +43,11 @@ body {
 }
 
 .player {
-    font-size: 1.2rem;
+    width: 49%;
 }
 
 .player-person {
-    width: fit-content;
+    border: 1px solid;
 }
 
 .player h2 {
@@ -58,6 +58,25 @@ body {
     padding: 1em;
 }
 
-.player h2 svg {
-    width: 30%;
+.player .icon {
+    border: 1px solid;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-person .icon svg {
+    width: 60%;
+    margin: 0;
+    border: 1px solid;
+}
+
+.player-person .icon {
+    width: 35%;
+}
+
+.player-computer .icon svg {
+    width: 90%;
+    border: 1px solid;
 }
