@@ -194,3 +194,19 @@ body {
     border: none;
     padding: .005em;
 }
+
+/* Player inputs */
+
+#player-inputs {
+    margin: 1em auto;
+    border: 1px solid blueviolet;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+#player-inputs .input button{
+    width: 5rem;
+    fill: brown;
+    height: 100%;
+}
