@@ -148,13 +148,13 @@ body {
 }
 
 #game-control .control {
+    width: 45%;
     /* border: 1px solid blue; */
-    border: none;
 }
 
 #game-control .control button{
     height: 100%;
-    width: 15rem;
+    width: 100%;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
