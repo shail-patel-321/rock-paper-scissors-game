@@ -97,3 +97,14 @@ body {
     font-weight: bolder;
     font-size: 3rem;
 }
+
+/* Timer */
+
+#timer {
+    margin: 1em auto;
+    border: 1px solid blue;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1em;
+}
