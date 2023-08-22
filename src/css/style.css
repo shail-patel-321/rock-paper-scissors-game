@@ -118,3 +118,21 @@ body {
     font-size: 1.8rem;
     text-align: center;
 }
+
+/* Playground */
+
+#playground {
+    margin: 1em auto;
+    border: 1px solid orange;
+    display: flex;
+    padding: 1.5em;
+}
+
+#playground .player h2 {
+    margin-bottom: 2em;
+}
+
+#playground .input {
+    width: 50%;
+    fill: green;
+}
