@@ -210,3 +210,19 @@ body {
     fill: brown;
     height: 100%;
 }
+
+/* Header and footer */
+
+header,
+footer {
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: #333;
+    right: 0;
+    left: 0;
+    display: none;
+}
