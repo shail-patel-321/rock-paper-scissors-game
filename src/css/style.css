@@ -26,28 +26,30 @@ body {
 
 /* Scoreboard */
 #score-board {
-    border: 1px solid;
+    border: 1px solid red;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row;
     align-items: center;
-    justify-content: space-around;
-    /* padding: 1em; */
-    padding-right: 1em;
+    justify-content: space-evenly;
+    padding: .5em;
 }
 
 .separation {
     border: 2px solid;
-    width: 0%;
-    padding: 4em 0;
     margin: auto;
+    width: 9%;
+    transform: rotate(90deg);
 }
+
+/* Players */
 
 .player {
     width: 49%;
-}
-
-.player-person {
-    border: 1px solid;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .player h2 {
@@ -55,28 +57,36 @@ body {
     flex-flow: row nowrap;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
     padding: 1em;
+    /* border: 1px solid green; */
+    font-size: 1rem;
 }
 
+/* Icons */
+
 .player .icon {
-    border: 1px solid;
-    width: fit-content;
+    /* border: 1px solid orange; */
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 40%;
+}
+
+.player .icon svg {
+    /* border: 1px solid blueviolet; */
+    color: initial;
 }
 
 .player-person .icon svg {
-    width: 60%;
+    width: 80%;
     margin: 0;
-    border: 1px solid;
 }
 
 .player-person .icon {
-    width: 35%;
+    width: 15%;
 }
 
 .player-computer .icon svg {
-    width: 90%;
-    border: 1px solid;
+    width: 50%;
 }
