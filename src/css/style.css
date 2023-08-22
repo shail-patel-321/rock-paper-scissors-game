@@ -108,3 +108,13 @@ body {
     text-align: center;
     padding: 1em;
 }
+
+/* Message */
+
+#msg {
+    margin: 1em auto;
+    border: 1px solid green;
+    padding: 1em;
+    font-size: 1.8rem;
+    text-align: center;
+}
